@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("./assets/MainBG.avif");
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+form{
+    height: 500px;
+    width: 370px;
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: 70px 490px;
+}
+form div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#main .div2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main .div2 h3 a{
+    color: rgb(42, 91, 165);
+}
+#main .div2 h3 a:active{
+    color: white;
+}
+.inp1, button{
+    height: 43px;
+    width: 300px;
+    text-align: start;
+    padding-left: 10px;
+}
+.inp3{
+    height: 40px;
+    width: 300px;
+    text-align: start;
+    padding-left: 10px;
+}
+button:hover{
+    background-color: rgb(69, 76, 85);
+}
+.div3{
+    margin-top: 20px;
+    text-align: start;
+    color: white;
+    padding-left: 40px;
+}
+button{
+    margin-top: 30px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgb(1, 13, 49);
+}
